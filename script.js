@@ -166,9 +166,9 @@ document.onkeydown = function (e) {
 }
 
 //copy pasted
-$(document).bind("contextmenu",function(e){
-    return false;
-      });
+// $(document).bind("contextmenu",function(e){
+//     return false;
+//       });
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
