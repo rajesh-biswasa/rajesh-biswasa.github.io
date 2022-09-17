@@ -1,7 +1,7 @@
 [
     {
         "name": "Unsplash Clone",
-        "desc": "This website is a clone of 'Unsplash.com' which is a stock photography site, Here I implemented fuctionalities Login & Singup,Uploading Photo from local System, Photo Like, Seaching Photo ect.",
+        "desc": "This website is a clone of 'Unsplash.com' which is a stock photography site, Here I implemented fuctionalities Login & Singup,Uploading Photo from local System, Photo Like, Seaching Photo ect.<br><b>Tech Stack: </b>HTML,CSS,JavaScript.",
         "image": "unplash",
         "category": "frontend",
         "links": {
@@ -11,7 +11,7 @@
     },
     {
         "name": "Dermstore Clone",
-        "desc": "This website is a clone of 'Dermstore.com' which is a skin care and beauty e-commerce site in the United States & here I  implemented some fuctionalities like Login & Singup, product page with sorting, add to cart etc.",
+        "desc": "This website is a clone of 'Dermstore.com' which is a skin care and beauty e-commerce site in the United States & here I  implemented some fuctionalities like Login & Singup, product page with sorting, add to cart etc.<br><b>Tech Stack: </b>HTML,CSS,JavaScript.",
         "image": "dermstore",
         "category": "frontend",
         "links": {
