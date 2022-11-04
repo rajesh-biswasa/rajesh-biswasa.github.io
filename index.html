@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- custom css -->
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome -->
@@ -30,8 +30,9 @@
             <ul>
                 <li><a class="active" href="#home">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
-                <li><a href="#work">WORK</a></li>
+                <li><a href="#work">PROJECTS</a></li>
                 <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#stat">STAT</a></li>
                 <li><a href="#contact">CONTACT</a></li>
                 <li><a href="./Document/Rajesh_Biswas_Resume.pdf" target="_blank">RESUME</a></li>
             </ul>
@@ -54,8 +55,8 @@
                 <ul class="social-icons">
                     <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/rajesh-biswasa/"
                             target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a class="github" aria-label="GitHub" href="https://github.com/rajesh-biswasa" target="_blank"><i
-                                class="fab fa-github"></i></a></li>
+                    <li><a class="github" aria-label="GitHub" href="https://github.com/rajesh-biswasa"
+                            target="_blank"><i class="fab fa-github"></i></a></li>
                     <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/r_ajeshbiswas"
                             target="_blank"><i class="fab fa-twitter"></i></a></li>
                     <li><a class="telegram" aria-label="Telegram" href="https://t.me/r_ajeshbiswas" target="_blank"><i
@@ -173,6 +174,43 @@
     </section>
     <!-- skills section ends -->
 
+    <!-- stat section stat -->
+    <section class="stat" id="stat">
+        <h2 class="heading">📈 <span>Statistics </span></h2>
+        <!-- Github and Statitics Section start -->
+
+        <div class="github_stat">
+
+            <img
+                src="https://github-readme-stats.vercel.app/api?username=rajesh-biswasa&show_icons=true&theme=default" />
+            <img
+                src="https://github-readme-streak-stats.herokuapp.com/?user=rajesh-biswasa&theme=default" />
+
+
+        </div>
+
+        <!-- github calender  -->
+
+        <h2 class="heading github_cal">GitHub Calendar </h2>
+        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+        <div style="width:85%;margin:auto;" class="calendar">
+
+
+        </div>
+
+        <script>
+            GitHubCalendar(".calendar", "rajesh-biswasa");
+
+            GitHubCalendar(".calendar", "rajesh-biswasa", { responsive: true });
+        </script>
+
+        <!-- calender end  -->
+        <!-- Github and Statitics Section End -->
+
+    </section>
 
     <!-- contact section starts -->
     <section class="contact" id="contact">
@@ -188,19 +226,19 @@
 
                     <div class="form-group">
                         <div class="field">
-                            <input type="text" name="name" placeholder="Name" required>
+                            <input type="text" name="name" placeholder="Name: Rajesh Biswas" required>
                             <i class='fas fa-user'></i>
                         </div>
                         <div class="field">
-                            <input type="text" name="email" placeholder="Email" required>
+                            <input type="text" name="email" placeholder="Email: rajeshbiswasa@gmail.com" required>
                             <i class='fas fa-envelope'></i>
                         </div>
                         <div class="field">
-                            <input type="text" name="phone" placeholder="Phone">
+                            <input type="text" name="phone" placeholder="Phone: +91-9584144887">
                             <i class='fas fa-phone-alt'></i>
                         </div>
                         <div class="message">
-                            <textarea placeholder="Message" name="message" required></textarea>
+                            <textarea placeholder="Message: Hiring" name="message" required></textarea>
                             <i class="fas fa-comment-dots"></i>
                         </div>
                     </div>
@@ -229,8 +267,10 @@
                 <h3>quick links</h3>
                 <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
                 <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-                <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+                <a href="#work"><i class="fas fa-chevron-circle-right"></i> project</a>
                 <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+                <a href="#stat"><i class="fas fa-chevron-circle-right"></i> statitics</a>
+                <a href="./Document/Rajesh_Biswas_Resume.pdf" target="_blank"><i class="fas fa-chevron-circle-right"></i> resume</a>
             </div>
 
             <div class="box">

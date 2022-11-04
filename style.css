@@ -759,6 +759,50 @@ header .navbar ul li a:hover {
 /* skills media queries ends*/
 /* skills section ends */
 
+/* static section :start */
+.stat{
+  background: linear-gradient(to bottom, #e5ecfb, rgb(255, 255, 255));
+
+}
+.stat .heading{
+  margin-bottom: 2.5rem;
+  
+}
+.stat .github_cal{
+  color: #002057;
+  /* font-size: 30px; */
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+.stat .heading span{
+  color:#ee6c4d;
+}
+.stat .calendar{
+  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) ;
+}
+.stat .github_stat{
+  /* display: flex; 
+  align-items: center;
+  text-align: center; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: auto;
+  width: 85%;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+.stat .github_stat img{
+  width: 100%;
+}
+
+@media screen and (max-width: 600px){
+  .stat .github_stat{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+}
+/* static section :end */
 /* contact section starts */
 .contact {
     background: #e5ecfb;
