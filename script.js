@@ -95,21 +95,24 @@ function showProjects(projects) {
     let projectHTML = "";
     projects.slice(0, 10).forEach(project => {
         projectHTML += `
-        <div class="box tilt">
-      <img draggable="false" src="/image/${project.image}.png" alt="project" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>`
+        <div class="tilt">
+            <div class="tag">
+                <h3>${project.name}</h3>
+            </div>
+            <div class="box">
+                <img draggable="false" src="/image/${project.image}.png" alt="project" />
+                <div class="content">
+                <div class="desc">
+                <p>${project.desc}</p>
+                <b><span>Tech Stack:</span> </b><img src="${project.src}" alt="${project.alter}">
+                <div class="btns">
+                  <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                  <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>`
     });
     projectsContainer.innerHTML = projectHTML;
 
@@ -206,7 +209,7 @@ srtop.reveal('.skills .container .bar', { delay: 400 });
 
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box', { interval: 200 });
+// srtop.reveal('.work .box', { interval: 200 });
 
 /* SCROLL STATICS */
 srtop.reveal('.stat .github_stat', { interval: 200 });
