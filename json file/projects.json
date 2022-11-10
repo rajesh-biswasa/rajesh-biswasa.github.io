@@ -12,6 +12,30 @@
         }
     },
     {
+        "name": "Personal Portfolio",
+        "desc": "This is One Page Personal Portfolio.It has Home, About, Skill, Project, Contact, And Resume Section.I developed using HTML, CSS, JavaScript",
+        "src": "https://skillicons.dev/icons?i=html,css,javascript,github",
+        "alter":"HTML,CSS,JavaScript",
+        "image": "Portfolio",
+        "category": "frontend",
+        "links": {
+            "view": "https://rajesh-biswasa.github.io/",
+            "code": "https://github.com/rajesh-biswasa/rajesh-biswasa.github.io"
+        }
+    },
+    {
+        "name": "Course Monitoring System",
+        "desc": "Console Based Course-Monitoring-System for an Educational Institute. So this Automated Course Monitoring System will keep the records of all the courses,batches,faculties and the daywise update for every batch. It will also help the Faculty Head to maintain the course platform.",
+        "src": "https://skillicons.dev/icons?i=java,mysql,github",
+        "alter":"Java,MySql,GitHub",
+        "image": "cms",
+        "category": "backend",
+        "links": {
+            "view": "https://github.com/rajesh-biswasa/Course-Monitoring-System",
+            "code": "https://github.com/rajesh-biswasa/Course-Monitoring-System"
+        }
+    },
+    {
         "name": "Dermstore Clone",
         "desc": "This website is a clone of 'Dermstore.com' which is a skin care and beauty e-commerce site in the United States & here I  implemented some fuctionalities like Login & Singup, product page with sorting, add to cart etc..",
         "src": "https://skillicons.dev/icons?i=html,css,javascript,github",
