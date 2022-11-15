@@ -34,7 +34,7 @@
                 <li><a href="#skills">SKILLS</a></li>
                 <!-- <li><a href="#stat">STATS</a></li> -->
                 <li><a href="#contact">CONTACT</a></li>
-                <li><a href="https://drive.google.com/u/0/uc?id=1yp574O0eBi2LrsqJ0pPQqnKmiDI3AKJQ&export=download" target="_blank">RESUME</a></li>
+                <li><a id="resume" href="./Document/Rajesh_Biswas_Resume.pdf" download> RESUME</a></li>
             </ul>
         </nav>
     </header>
@@ -195,7 +195,7 @@
     <!-- skills section starts -->
     <section class="skills" id="skills">
 
-        <h2 class="heading"><i class="fas fa-laptop-code"></i> My <span>Tecahnical</span> Skills</h2>
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> My <span>Technical</span> Skills</h2>
 
         <div class="container">
             <div class="row" id="skillsContainer">
@@ -216,7 +216,9 @@
     <section class="stat" id="stat">
         <h2 class="heading">📈 <span>Statistics </span></h2>
         <!-- Github and Statitics Section start -->
-        <p align="center" style="font-size: 20px;">GitHub Profile View: <img src="https://komarev.com/ghpvc/?username=rajesh-biswasa&label=Profile%20views&color=0e75b6&style=flat" alt="biswasraj" /> </p>
+        <p align="center" style="font-size: 20px;">GitHub Profile View: <img
+                src="https://komarev.com/ghpvc/?username=rajesh-biswasa&label=Profile%20views&color=0e75b6&style=flat"
+                alt="biswasraj" /> </p>
         <div class="github_stat">
 
             <img
@@ -275,7 +277,7 @@
                             <i class='fas fa-phone-alt'></i>
                         </div>
                         <div class="message">
-                            <textarea placeholder="Message: Hiring" name="message" required></textarea>
+                            <textarea placeholder="Message:" name="message" required></textarea>
                             <i class="fas fa-comment-dots"></i>
                         </div>
                     </div>
@@ -307,8 +309,8 @@
                 <a href="#work"><i class="fas fa-chevron-circle-right"></i> project</a>
                 <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
                 <!-- <a href="#stat"><i class="fas fa-chevron-circle-right"></i> statitics</a> -->
-                <a href="https://drive.google.com/u/0/uc?id=1yp574O0eBi2LrsqJ0pPQqnKmiDI3AKJQ&export=download" target="_blank"><i
-                        class="fas fa-chevron-circle-right"></i> resume</a>
+                <a href="https://drive.google.com/u/0/uc?id=1yp574O0eBi2LrsqJ0pPQqnKmiDI3AKJQ&export=download"
+                    target="_blank"><i class="fas fa-chevron-circle-right"></i> resume</a>
             </div>
 
             <div class="box">
@@ -362,6 +364,12 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
+    <script>
+        function contshow4() {
+            window.open(href = "./Document/Rajesh_Biswas_Resume.pdf");
+        }
+        let my_cont_4 = document.querySelector("#resume").addEventListener("click", contshow4)
+    </script>
     <script src="./script.js"></script>
 </body>
 
